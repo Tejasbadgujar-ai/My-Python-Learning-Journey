@@ -1,7 +1,7 @@
-# convert input data type 
+# convert input data type  inout in users 
 
 val = float (input("Enter the value"))
-print(type(val),val) #convert any data type like int float 
+print(type(val)) #convert any data type like int float 
 
 #basic data like name age marks 
 

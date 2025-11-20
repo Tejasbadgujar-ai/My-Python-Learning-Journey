@@ -17,7 +17,7 @@ print("Area of square :",side*side) #same as power denoted in suare like **
 #thirs question this answer 
 #wap to input 2 floating point numbers and print there average
 
-num1 = int(input("Enter 1st floting point number"))
+num1 = float(input("Enter 1st floting point number"))
 num2 = float(input("Enter 2nd floating point number"))
 
 print("average :",(num1+num2)/2)
@@ -30,4 +30,5 @@ print("average :",(num1+num2)/2)
 a = int(input("Enter first number"))
 b = int(input("Enter second number"))
 
-print(a >= b )
+print(a <= b )
+

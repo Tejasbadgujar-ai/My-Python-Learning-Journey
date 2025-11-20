@@ -58,7 +58,7 @@ num = 10
 num %= 10
 print("num :",num)
 
-num = 0
+num = 10
 num **= 10
 print("num :",num)
 
@@ -70,6 +70,8 @@ print(not True)
 print(not(a < b))
 
 
+#and or rule
+
 val1 =False
 val2 = True
 
@@ -77,9 +79,7 @@ print("And operetor :",val1 and val2)# at time both conditions are True so give 
 
 print("or operator :",val1 or val2)# at least one condition true so give true and also two conditions are true so i give true value 
 
+#a = 20
+#b = (int)20.5 
 
-
-a = 20
-b = (int)20.5 
-
-print(type(a  + b ))
+#print(type(a  + b ))
