@@ -18,5 +18,7 @@ print(len(string_name))
 
 str2 = "tejasBadgujar"   #specific lenge string fing mean +[0,1,2,3,4,5,6,7,8,9] -[-1,-2,-3,-4,-5,-6,-7,-8,-9,]
 print(str2[0])    #using [] #like [+0,-0] return same value because starting in 0 and ending in -1 thats +0 -0 same value print 
-print(str2[-1]) #n3gative indexing start in -1 
+print(str2[-1]) #negative indexing start in -1 
+
+#mainly use in negative indexing is uses in slicing not a indexing because is not a valid indixes in negative 
 

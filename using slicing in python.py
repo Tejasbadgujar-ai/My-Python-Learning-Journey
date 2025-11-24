@@ -10,3 +10,4 @@ print(str4[7:len(str4)])  #using also use in last index find method [: print len
 str_1 ="badgujar"
 print(str_1[-8:-1])   #negative slicing start in -1 and and then all of decrese words
 
+#more than negative indexes use in slicing because negative indexes not valid indexes 
