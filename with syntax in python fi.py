@@ -12,7 +12,7 @@ with open("file save data.py","r") as f:
 # write the data using wiotrh syntax outomatically close the file:
 
 with open("file save data.py","w")as f:
-  f.write("hello today i am learning i pythopn")
+  f.write("hello today i am learning i python")
 
 # deletein a file using module os:
 
@@ -35,7 +35,7 @@ with open("file save data.py","w")as f:
 
 with open("practice.txt","w") as f:
   f.write("hi everyone\nwe are learning file i/o")
-  f.write("\nusing java\ni like programong in java")
+  f.write("\nusing java\ni like programing in java")
 
 #2nd write a program that replace oll occurences of "java" with "python" in above file
 
@@ -59,3 +59,35 @@ def check_for_word():
   else:
     print("not found")
 check_for_word()
+
+#4th                                     #39:02
+
+#write a fuction find in which line off the file does the world "learning"  the accure first print -1 if world not found 
+
+
+def check_for_line():
+ word = "programing"
+ data1 = True
+ line_no = 1
+ with open("practice.txt","r") as f :
+    while data1:
+      data1 = f.readline()
+      if(word in data1):
+         print(line_no)
+         return
+      line_no += 1
+    return -1
+     
+print(check_for_line()) 
+
+
+#from a file containing a numbers seprreted by comma,print the count in even number 
+count = 0 
+with open("practice.txt","r") as f :
+  data = f.read()
+
+  nums = data.split(",")
+  for val in nums:
+    if(int(val) % 2 == 0):
+      count +=1
+print(count)      

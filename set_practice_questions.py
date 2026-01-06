@@ -22,7 +22,7 @@ subjects = {
     "python","java","c++","python","java",
     "c","javascript","html","css","c++"
 }
-print(subjects.union)
+print(subjects)
 print("total classroom needed :",len(subjects))
 
 # 3 wap to enter marks of 3 subjects from the user and store then in a dictionary start with an empty 

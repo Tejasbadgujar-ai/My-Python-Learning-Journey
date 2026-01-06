@@ -48,7 +48,7 @@ while n <= 30: #these also good but they have my logic also diffrent like :
     print(n)
     n+=3
 
-#these also good means ever umber print also possible 
+#these also good means everynumber print also possible 
 n = int(input("enter the number :"))
 i = 1
 while i<=10:
