@@ -21,4 +21,29 @@ print(s2.name,s2.marks)
 print(s1.college_name,s2.college_name)
 
 s1 =Students("arjun",42)
-print(s1.name)
+print(s1.name,s1.marks)              #29:38
+
+
+
+
+#methods in fucnction in python : fuctions = methods 
+class Students():
+   
+   def __init__(self,name,marks,age):
+      self.name = name
+      self.marks = marks
+      self.age =age
+
+      print("user is addding")
+
+
+   def Welcome(self):
+      print("welcome the students",self.name)
+
+   def get_marks(self):
+      return self.marks
+
+s1 = Students("karan",97,21)
+s1.Welcome()
+print(s1.get_marks())
+      
